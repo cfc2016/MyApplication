@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TitleView">
+        <attr name="title_name" format="string|reference" />
+        <attr name="left_name" format="string|reference" />
+        <attr name="title_size" format="integer" />
+        <attr name="right_text_size" format="integer" />
+        <attr name="title_color" format="reference" />
+        <attr name="right_text_color" format="reference" />
+        <attr name="left_icon" format="reference" />
+        <attr name="right_icon" format="reference" />
+        <attr name="right_text" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="LoginInputView">
+        <attr name="input_icon" format="reference" />
+        <attr name="input_name" format="string|reference" />
+        <attr name="input_hint" format="string|reference" />
+
+
+    </declare-styleable>
+
+    <declare-styleable name="SearchView">
+        <attr name="hint_name" format="string|reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="HorizonProgressBar">
+        <attr name="horizon_progress_drawable" format="reference"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="RatingBar" >
+        <attr name="starImageSize" format="dimension"/>
+        <attr name="starImageWidth" format="dimension"/>
+        <attr name="starImageHeight" format="dimension"/>
+        <attr name="starImagePadding" format="dimension"/>
+        <attr name="starCount" format="integer"/>
+        <attr name="starNum" format="integer"/>
+        <attr name="starEmpty" format="reference"/>
+        <attr name="starFill" format="reference"/>
+        <attr name="starHalf" format="reference"/>
+        <attr name="clickable" format="boolean"/>
+        <attr name="halfstart" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="GroupRecyclerView">
+        <attr name="group_height" format="dimension" />
+        <attr name="group_child_offset" format="dimension" />
+        <attr name="group_background" format="color" />
+        <attr name="group_text_color" format="color" />
+        <attr name="group_text_size" format="dimension" />
+        <attr name="group_center" format="boolean" />
+        <attr name="group_padding_left" format="dimension" />
+        <attr name="group_padding_right" format="dimension" />
+        <attr name="group_has_header" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="PwdInputView">
+        <attr name="pwd_hint" format="string|reference"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="DraggableFrameLayout">
+        <attr name="showPercent" format="float" />
+        <attr name="direction">
+            <enum name="none" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="all" value="3" />
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="MutiChoseMenuView">
+        <attr name="contentHeight" format="dimension" />
+
+    </declare-styleable>
+</resources>
